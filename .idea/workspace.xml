@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6eb01993-9989-4ff9-8e47-e242144690cf" name="Default Changelist" comment="Dev 22/10/2020">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyticsCounter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compteurs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ListService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ReadItemsDataFromFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/WriteItemsInFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadItemsDataFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteItemsInFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcompteurs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ISymptomReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,7 +62,132 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jCwrBsoobjsrgDnW2vVTQslvxE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.validation" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AnalyticsCounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounterApp" />
+      <module name="AnalyticsCounter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnalyticsCounterApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eb01993-9989-4ff9-8e47-e242144690cf" name="Default Changelist" comment="" />
+      <created>1603321580050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603321580050</updated>
+      <workItem from="1603321581139" duration="1132000" />
+      <workItem from="1603323790930" duration="719000" />
+      <workItem from="1603324816337" duration="604000" />
+      <workItem from="1603325727999" duration="87000" />
+      <workItem from="1603355543518" duration="128000" />
+      <workItem from="1603356039394" duration="796000" />
+      <workItem from="1603358115765" duration="237000" />
+      <workItem from="1603358364270" duration="40000" />
+      <workItem from="1603358489570" duration="14000" />
+      <workItem from="1603358548039" duration="20000" />
+      <workItem from="1603358693827" duration="288000" />
+      <workItem from="1603358992264" duration="15096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dev 22/10/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev 22/10/2020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603361936138">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603361936138" />
+    <state x="1883" y="1" width="885" height="1030" key="CommitChangelistDialog2" timestamp="1603377932882">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1883" y="1" width="885" height="1030" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603377932882" />
+    <state x="543" y="262" key="Github.ShareDialog" timestamp="1603321869076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="543" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1603321869076" />
+    <state x="394" y="69" key="Github.UntrackedFilesDialog" timestamp="1603321885408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603321885408" />
+    <state width="1877" height="43" key="GridCell.Tab.0.bottom" timestamp="1603377932930">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="43" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603377932930" />
+    <state width="1877" height="43" key="GridCell.Tab.0.center" timestamp="1603377932930">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="43" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603377932930" />
+    <state width="1877" height="43" key="GridCell.Tab.0.left" timestamp="1603377932930">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="43" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603377932930" />
+    <state width="1877" height="43" key="GridCell.Tab.0.right" timestamp="1603377932930">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="43" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603377932930" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1603359007816">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603359007816" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603325758955" />
+    <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603360156410">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603360156410" />
+    <state x="2410" y="193" width="585" height="685" key="find.popup" timestamp="1603378373138">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="193" width="585" height="685" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603378373138" />
   </component>
 </project>
