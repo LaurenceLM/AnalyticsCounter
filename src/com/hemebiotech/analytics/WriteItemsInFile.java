@@ -5,13 +5,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Classe d'écriture du fichier de sortie
  */
 public class WriteItemsInFile implements IItemsWriter {
 
-    static final String filePathSortie = "compteurs.txt";
+    static final String filePathSortie = "results.out";
     private BufferedWriter writer;
 
     /**
@@ -28,7 +29,7 @@ public class WriteItemsInFile implements IItemsWriter {
     }
 
     /**
-     * Ecriture du fichier à partir d'une map <item, compteur>
+     * Ecriture du fichier à partir d'une map <item, compteur> par ordre alphabétique d'item
      * @param itemsCounter map ayant une clé de type String : l'item et une valeur de type Integer : le compteur
      * @throws IOException si problème lors de l'écriture du fichier
      */
@@ -36,7 +37,8 @@ public class WriteItemsInFile implements IItemsWriter {
     @Override
     public void writeItems(HashMap<String, Integer> itemsCounter) throws IOException {
 
-        for (Map.Entry<String, Integer> entry : itemsCounter.entrySet()) {
+        TreeMap<String, Integer> sortedMap = new TreeMap<>(itemsCounter);
+        for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
             String k = entry.getKey();
             Integer v = entry.getValue();
             writer.write(k + ": " + v + "\n");

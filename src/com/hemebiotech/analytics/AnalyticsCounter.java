@@ -44,7 +44,7 @@ public class AnalyticsCounter {
     }
 
     /**
-     * méthode d'écriture des données à partir d'une Map (item, compteur)
+     * méthode d'écriture des données à partir d'une Map (item, compteur) par ordre alphabétique d'item
      * @param itemsCounter Map ayant pour clé l'items et valeur le compteur
      * @throws Exception si problème lors de l'écriture
      */
