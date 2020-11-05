@@ -4,51 +4,48 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Classe d'écriture du fichier de sortie
  */
 public class WriteItemsInFile implements IItemsWriter {
 
-    private BufferedWriter writer = null;
+    static final String filePathSortie = "compteurs.txt";
+    private BufferedWriter writer;
 
     /**
-     * Constructuer permettant l'ouverture du fichier
-     * @param filepath
-     * @throws Exception
+     * Constructeur permettant l'ouverture du fichier
+     * @throws Exception si problème lors de l'ouverture du fichier ou si le chemin vide
      */
 
-    public WriteItemsInFile(String filepath) throws Exception {
-        if (filepath != null) {
-            try {
-                this.writer = new BufferedWriter(new FileWriter(filepath));;
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    public WriteItemsInFile() throws Exception {
+        if (filePathSortie != null) {
+            this.writer = new BufferedWriter(new FileWriter(filePathSortie));
         } else {
             throw new Exception ("filepath du fichier en sortie : chaine vide");
         }
     }
 
     /**
-     * Ecriture du fichier à partir d'une hashmap
-     * @param itemsCounter
+     * Ecriture du fichier à partir d'une map <item, compteur>
+     * @param itemsCounter map ayant une clé de type String : l'item et une valeur de type Integer : le compteur
+     * @throws IOException si problème lors de l'écriture du fichier
      */
-    @Override
-    public void writeItems(HashMap<String, Integer> itemsCounter) {
 
-        itemsCounter.forEach((k, v) -> {
-            try {
-                writer.write(k + ": " + v + "\n");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });
+    @Override
+    public void writeItems(HashMap<String, Integer> itemsCounter) throws IOException {
+
+        for (Map.Entry<String, Integer> entry : itemsCounter.entrySet()) {
+            String k = entry.getKey();
+            Integer v = entry.getValue();
+            writer.write(k + ": " + v + "\n");
+        }
     }
 
     /**
      * Fermeture du fichier
-     * @throws IOException
+     * @throws IOException si problème lors de la fermeture du fichier
      */
     @Override
     public void close() throws IOException {

@@ -4,18 +4,20 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Classe fournissant des services fournis sur une List de Strings
+ * Classe fournissant des services
  */
-public class ListService {
+
+public class Services {
 
     /**
-     *
+     * méthode de comptant dynamiquement les items contenus dans une liste
      * @param list d'items
-     * @return Map des occurences d'items avec compteurs
+     * @return Map des occurences d'items (clé) avec compteurs (valeur)
      */
+
     public HashMap<String,Integer> setCounterInMap(List<String> list) {
 
-        HashMap<String, Integer> itemsCounter = new HashMap<String, Integer>();
+        HashMap<String, Integer> itemsCounter = new HashMap<>();
         Integer compteur;
 
         for (String element: list) {
@@ -30,5 +32,4 @@ public class ListService {
 
         return itemsCounter;
     }
-
 }

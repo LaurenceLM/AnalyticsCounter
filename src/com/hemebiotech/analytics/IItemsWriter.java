@@ -4,13 +4,13 @@ import java.io.IOException;
 import java.util.HashMap;
 
 /**
- * Interface d'écriture
+ * Interface d'écriture des données en sortie
  */
 
 public interface IItemsWriter {
 
-    public void writeItems (HashMap<String, Integer> itemsCounter);
+    void writeItems (HashMap<String, Integer> itemsCounter) throws IOException;
 
-    public void close() throws IOException;
+    void close() throws IOException;
 
 }

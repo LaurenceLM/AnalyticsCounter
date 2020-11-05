@@ -4,12 +4,12 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Interface de lecture
+ * Interface de lecture des données en entrée
  */
 public interface IItemsReader {
 
-    public List<String> getItems () throws IOException;
+    List<String> getItems () throws IOException;
 
-    public void close() throws IOException;
+    void close() throws IOException;
 
 }

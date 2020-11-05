@@ -10,20 +10,17 @@ import java.util.List;
 
 public class ReadItemsDataFromFile implements IItemsReader {
 
-    private BufferedReader reader = null;
+    static final String filePathEntree = "symptoms.txt";
+
+    private BufferedReader reader;
 
     /**
      * Constructeur permettant l'ouverture du fichier
-     * @param filepath
-     * @throws Exception
+     * @throws Exception si problème lors de l'ouverture du fichier ou si le chemin vide
      */
-    public ReadItemsDataFromFile(String filepath) throws Exception {
-        if (filepath != null) {
-            try {
-                this.reader = new BufferedReader(new FileReader(filepath));;
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    public ReadItemsDataFromFile() throws Exception {
+        if (filePathEntree != null) {
+            this.reader = new BufferedReader(new FileReader(filePathEntree));
         } else {
             throw new Exception ("filepath du fichier en entrée : chaine vide");
         }
@@ -31,24 +28,25 @@ public class ReadItemsDataFromFile implements IItemsReader {
 
     /**
      * Création d'une list à partir du fichier
-     * @return
-     * @throws IOException
+     * @return liste d'items lus
+     * @throws IOException si problème lors de la lecture du fichier
      */
     @Override
     public List<String> getItems() throws IOException {
 
         String line;
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
 
         while ((line  = reader.readLine()) != null) {
             list.add(line);
         }
+
         return list;
     }
 
     /**
-     * Fermeture du fichier
-     * @throws IOException
+     * Fermeture du fichier lu
+     * @throws IOException si problème lors de la fermeture du fichier d'entrée
      */
     @Override
     public void close() throws IOException {
