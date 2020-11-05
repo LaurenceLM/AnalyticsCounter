@@ -1,0 +1,18 @@
+
+M
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8÷µ¾Ù.
+Q
+java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8´ªš†Õ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8÷µ¾Ù.
+Q
+java:S1128"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃıÿÿÿÿ8´ªš†Õ.
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8´ªš†Õ.
+Z
+java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8÷µ¾Ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8÷µ¾Ù.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8´ªš†Õ.
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8÷µ¾Ù.

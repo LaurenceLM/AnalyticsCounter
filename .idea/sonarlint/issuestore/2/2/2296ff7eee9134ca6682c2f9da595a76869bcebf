@@ -1,0 +1,10 @@
+
+k
+java:S1192"IDefine a constant instead of duplicating this literal "headache" 3 times.(ΐ¶Ν©ύÿÿÿÿ8‘κδΎΩ.
+v
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ς‘Υ¥8‘κδΎΩ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬ΠΛ‹ωÿÿÿÿ8‘κδΎΩ.
+g	java:S112	"FDefine and throw a dedicated exception instead of using a generic one.(ιωΈÿÿÿÿÿ8‘κδΎΩ.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(—ΐ‚¥ωÿÿÿÿ8‘κδΎΩ.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ƒηΗΡ8‘κδΎΩ.

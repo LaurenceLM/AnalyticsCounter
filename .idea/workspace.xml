@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb01993-9989-4ff9-8e47-e242144690cf" name="Default Changelist" comment="Dev 05/11/2020&#10;Spliter method compter en 3 méthodes&#10;Javadoc pour classe AnalyticsCounter&#10;Remplacer e.printstacktrace() et try / catch dans AnalyticsCounterApp">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/2296ff7eee9134ca6682c2f9da595a76869bcebf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fd5f4dc1d1cf4774ad894fb78936c64757b7605" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46875fc1eaaedbc9499037191b74d8a37356e87e" afterDir="false" />
@@ -17,21 +16,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e649c390185c4683fa4c8d9c9160a6fa28c720c8" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3e713426b93c97a208a25113b96067a06e7daeb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ReadItemsDataFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ReadItemsDataFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compteurs.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/WriteItemsInFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/WriteItemsInFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounterApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadItemsDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadItemsDataFromFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteItemsInFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteItemsInFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcompteurs.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +127,7 @@
       <workItem from="1603358992264" duration="16610000" />
       <workItem from="1603380716500" duration="601000" />
       <workItem from="1604568944417" duration="3069000" />
-      <workItem from="1604572330965" duration="1901000" />
+      <workItem from="1604572330965" duration="3646000" />
     </task>
     <task id="LOCAL-00001" summary="Dev 22/10/2020">
       <created>1603378409232</created>
@@ -145,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603378409232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dev 05/11/2020&#10;Spliter method compter en 3 méthodes&#10;Javadoc pour classe AnalyticsCounter&#10;Remplacer e.printstacktrace() et try / catch dans AnalyticsCounterApp">
+      <created>1604574258182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604574258182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +159,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603361936138" />
-    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2" timestamp="1604574228125">
+    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2" timestamp="1604574256476">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574228125" />
+    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574256476" />
     <state x="543" y="262" key="Github.ShareDialog" timestamp="1603321869076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -173,30 +171,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="394" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603321885408" />
-    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1604574183189">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1604583318638">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1604574183189">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604583318638" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1604583318638">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1604574183189">
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604583318638" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1604583318638">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1604574183189">
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604583318638" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1604583318638">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
-    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
-    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1603378462020">
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604583318638" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1604574424622">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603378462020" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574424622" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603325758955" />
     <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603360156410">
       <screen x="1366" y="0" width="1920" height="1040" />
