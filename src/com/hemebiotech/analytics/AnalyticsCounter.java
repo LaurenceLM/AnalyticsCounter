@@ -1,43 +1,58 @@
 package com.hemebiotech.analytics;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.util.HashMap;
+import java.util.List;
+
+/**
+ * Classe de traitement d'obtention des compteurs d'items
+ */
 
 public class AnalyticsCounter {
-	private static int headacheCount = 0;	// initialize to 0
-	private static int rashCount = 0;		// initialize to 0
-	private static int pupilCount = 0;		// initialize to 0
-	
-	public static void main(String args[]) throws Exception {
-		// first get input
-		BufferedReader reader = new BufferedReader (new FileReader("symptoms.txt"));
-		String line = reader.readLine();
 
-		int i = 0;	// set i to 0
-		int headCount = 0;	// counts headaches
-		while (line != null) {
-			i++;	// increment i
-			System.out.println("symptom from file: " + line);
-			if (line.equals("headache")) {
-				headCount++;
-				System.out.println("number of headaches: " + headCount);
-			}
-			else if (line.equals("rush")) {
-				rashCount++;
-			}
-			else if (line.contains("pupils")) {
-				pupilCount++;
-			}
+    /**
+     * méthode de traitement des compteurs appelant les méthodes lire, compter et traiter
+     * @throws Exception si problème lors de la lectures ou de l'écriture des données
+     */
 
-			line = reader.readLine();	// get another symptom
-		}
-		
-		// next generate output
-		FileWriter writer = new FileWriter ("result.out");
-		writer.write("headache: " + headacheCount + "\n");
-		writer.write("rash: " + rashCount + "\n");
-		writer.write("dialated pupils: " + pupilCount + "\n");
-		writer.close();
-	}
+    public void traiter() throws Exception {
+        List<String> listItems = lire();
+        HashMap<String, Integer> itemsCounter = compter(listItems);
+        ecrire(itemsCounter);
+    }
+
+    /**
+     * méthode de lecture des données en entrée
+     * @return liste des items lus
+     * @throws Exception si problème lors de la lecture
+     */
+    private List<String> lire() throws Exception {
+        ReadItemsDataFromFile itemsReader = new ReadItemsDataFromFile();
+        List<String> listItems = itemsReader.getItems();
+        itemsReader.close();
+        return listItems;
+    }
+
+    /**
+     * méthode de calcul du nombre d'items à partir d'une liste d'items
+     * @param listItems : collection d'items de type String
+     * @return Map ayant pour clé l'items et valeur le compteur
+     */
+
+    private HashMap<String, Integer> compter(List<String>  listItems) {
+        Services services = new Services();
+        return services.setCounterInMap(listItems);
+    }
+
+    /**
+     * méthode d'écriture des données à partir d'une Map (item, compteur)
+     * @param itemsCounter Map ayant pour clé l'items et valeur le compteur
+     * @throws Exception si problème lors de l'écriture
+     */
+
+    private void ecrire(HashMap<String, Integer> itemsCounter) throws Exception {
+        WriteItemsInFile itemsWriter = new WriteItemsInFile();
+        itemsWriter.writeItems(itemsCounter);
+        itemsWriter.close();
+    }
+
 }

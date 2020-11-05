@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6eb01993-9989-4ff9-8e47-e242144690cf" name="Default Changelist" comment="Dev 05/11/2020&#10;Spliter method compter en 3 méthodes&#10;Javadoc pour classe AnalyticsCounter&#10;Remplacer e.printstacktrace() et try / catch dans AnalyticsCounterApp">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/2296ff7eee9134ca6682c2f9da595a76869bcebf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fd5f4dc1d1cf4774ad894fb78936c64757b7605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46875fc1eaaedbc9499037191b74d8a37356e87e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86cb039b7d0489451cc6cb7d3d7f6c2116267afb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/9198e290bbda6e581f680def17a8a0d350ef8935" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0203940073f153bae11637bc030058f24d61762" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b40daa193a616fd6ca625e6f8ea154b143d3225e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf24b09b82c201aa39f46b42b59f19ea91040e22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c68f839651bed0341b9c520a18c06721d4380a9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e649c390185c4683fa4c8d9c9160a6fa28c720c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3e713426b93c97a208a25113b96067a06e7daeb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/IItemsWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ReadItemsDataFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/ReadItemsDataFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/WriteItemsInFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalyticsCounter/com/hemebiotech/analytics/WriteItemsInFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/IItemsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadItemsDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadItemsDataFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteItemsInFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteItemsInFile.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,7 +65,146 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jCwrBsoobjsrgDnW2vVTQslvxE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="project.validation" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AnalyticsCounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounterApp" />
+      <module name="AnalyticsCounter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnalyticsCounterApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6eb01993-9989-4ff9-8e47-e242144690cf" name="Default Changelist" comment="" />
+      <created>1603321580050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603321580050</updated>
+      <workItem from="1603321581139" duration="1132000" />
+      <workItem from="1603323790930" duration="719000" />
+      <workItem from="1603324816337" duration="604000" />
+      <workItem from="1603325727999" duration="87000" />
+      <workItem from="1603355543518" duration="128000" />
+      <workItem from="1603356039394" duration="796000" />
+      <workItem from="1603358115765" duration="237000" />
+      <workItem from="1603358364270" duration="40000" />
+      <workItem from="1603358489570" duration="14000" />
+      <workItem from="1603358548039" duration="20000" />
+      <workItem from="1603358693827" duration="288000" />
+      <workItem from="1603358992264" duration="16610000" />
+      <workItem from="1603380716500" duration="601000" />
+      <workItem from="1604568944417" duration="3069000" />
+      <workItem from="1604572330965" duration="1901000" />
+    </task>
+    <task id="LOCAL-00001" summary="Dev 22/10/2020">
+      <created>1603378409232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603378409232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dev 22/10/2020" />
+    <MESSAGE value="Dev 05/11/2020&#10;Spliter method compter en 3 méthodes&#10;Javadoc pour classe AnalyticsCounter&#10;Remplacer e.printstacktrace() et try / catch dans AnalyticsCounterApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev 05/11/2020&#10;Spliter method compter en 3 méthodes&#10;Javadoc pour classe AnalyticsCounter&#10;Remplacer e.printstacktrace() et try / catch dans AnalyticsCounterApp" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603361936138">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2131" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603361936138" />
+    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2" timestamp="1604574228125">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1891" y="10" width="885" height="1030" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574228125" />
+    <state x="543" y="262" key="Github.ShareDialog" timestamp="1603321869076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="543" y="262" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1603321869076" />
+    <state x="394" y="69" key="Github.UntrackedFilesDialog" timestamp="1603321885408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603321885408" />
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1604574183189">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1604574183189">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1604574183189">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1604574183189">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603367381189" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604574183189" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1603378462020">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603378462020" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603325758955" />
+    <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603360156410">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2143" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603360156410" />
+    <state x="2410" y="193" width="585" height="685" key="find.popup" timestamp="1603378373138">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="193" width="585" height="685" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603378373138" />
   </component>
 </project>
