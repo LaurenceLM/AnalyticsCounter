@@ -1,5 +1,5 @@
 
-Š
-java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ëÿä°8ûÏá¾Ù.
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(—À‚¥ùÿÿÿÿ8ûÏá¾Ù.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(£¸Ø´ÿÿÿÿÿ8ÃÒÉÙ.
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÍøÄÉÙ.

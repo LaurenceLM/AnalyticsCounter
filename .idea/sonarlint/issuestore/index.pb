@@ -11,10 +11,6 @@ _
 /src/com/hemebiotech/analytics/IItemsWriter.java,e\6\e649c390185c4683fa4c8d9c9160a6fa28c720c8
 D
 AnalyticsCounter.iml,3\f\3fd5f4dc1d1cf4774ad894fb78936c64757b7605
-=
-compteurs.txt,f\3\f3e713426b93c97a208a25113b96067a06e7daeb
-A
-testcompteurs.txt,b\0\b0203940073f153bae11637bc030058f24d61762
 f
 6src/com/hemebiotech/analytics/AnalyticsCounterApp.java,9\1\9198e290bbda6e581f680def17a8a0d350ef8935
 h
@@ -28,3 +24,9 @@ X
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+;
+results.out,4\f\4fa16b6ed5c1af885aed2d0882d0a5af7c90bf7d
+<
+symptoms.txt,d\2\d2db73938da8d0b3c465f2d30325700df4161368

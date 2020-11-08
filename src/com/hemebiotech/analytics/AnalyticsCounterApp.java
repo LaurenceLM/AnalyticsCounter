@@ -9,6 +9,10 @@ import java.util.Map;
  */
 public class AnalyticsCounterApp {
 
+	/**
+	 * méthode main de traitement des compteurs appelant les méthodes lire, compter et ecrire
+	 */
+
 	public static void main(String args[]) {
 
 		AnalyticsCounter analyticsCounter = new AnalyticsCounter();

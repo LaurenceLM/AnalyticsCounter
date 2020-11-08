@@ -1,6 +1,10 @@
 
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÖŞ î8Î¾Ş¾Ù.
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Î¡—üÿÿÿÿ8Î¾Ş¾Ù.
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¦Ñ·ÉÙ.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÖŞ î8Î¾Ş¾Ù.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Î¡—üÿÿÿÿ8Î¾Ş¾Ù.
 `
-java:S2583"CChange this condition so that it does not always evaluate to "true"(Şø’8Î¾Ş¾Ù.
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í¹´Ñ8Î¾Ş¾Ù.
+java:S2583"CChange this condition so that it does not always evaluate to "true"(Şø’8Î¾Ş¾Ù.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò×°Ä8Î¾Ş¾Ù.
+P
+java:S1128".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8„¨¯ÉÙ.

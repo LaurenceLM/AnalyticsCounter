@@ -1,10 +1,11 @@
 
+J
+java:S2440'"(Remove this instantiation of "Services".(ù¹Ñôùÿÿÿÿ8‡˜ïÉÙ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8‘êä¾Ù.
 k
-java:S1192"IDefine a constant instead of duplicating this literal "headache" 3 times.(À¶Í©ıÿÿÿÿ8‘êä¾Ù.
-v
-java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ò‘Õ¥8‘êä¾Ù.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8‘êä¾Ù.
-g	java:S112	"FDefine and throw a dedicated exception instead of using a generic one.(éù¸ÿÿÿÿÿ8‘êä¾Ù.
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(—À‚¥ùÿÿÿÿ8‘êä¾Ù.
-U	java:S106("9Replace this use of System.out or System.err by a logger.(ƒçÇÑ8‘êä¾Ù.
+java:S1192"IDefine a constant instead of duplicating this literal "headache" 3 times.(À¶Í©ıÿÿÿÿ8‘êä¾Ù.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ƒçÇÑ8‘êä¾Ù.
+g	java:S112
+"FDefine and throw a dedicated exception instead of using a generic one.(éù¸ÿÿÿÿÿ8‘êä¾Ù.
+W
+java:S2209("5Change this instance-reference to a static reference.(Æ°Óşùÿÿÿÿ8‡˜ïÉÙ.
