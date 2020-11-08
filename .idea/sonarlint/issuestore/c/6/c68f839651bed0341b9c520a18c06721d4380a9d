@@ -1,10 +1,6 @@
 
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ôµƒ8™ÓÛ¾Ù.
 e
 java:S2583"CChange this condition so that it does not always evaluate to "true"(™¢Îşÿÿÿÿ8™ÓÛ¾Ù.
-{
-java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ8™ÓÛ¾Ù.
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ôµƒ8™ÓÛ¾Ù.
->
-java:S1116"Remove this empty statement.(ÁÃÑüúÿÿÿÿ8™ÓÛ¾Ù.
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıÃ°áøÿÿÿÿ8™ÓÛ¾Ù.
 g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ôã”Úúÿÿÿÿ8™ÓÛ¾Ù.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ıÃ°áøÿÿÿÿ8™ÓÛ¾Ù.

@@ -10,17 +10,6 @@ import java.util.Map;
 public class AnalyticsCounter {
 
     /**
-     * méthode de traitement des compteurs appelant les méthodes lire, compter et traiter
-     * @throws Exception si problème lors de la lectures ou de l'écriture des données
-     */
-
-    public void traiter() throws Exception {
-        List<String> listItems = lire();
-        Map<String, Integer> sortedMap = compter(listItems);
-        ecrire(sortedMap);
-    }
-
-    /**
      * méthode de lecture des données en entrée
      * @return liste des items lus
      * @throws Exception si problème lors de la lecture
