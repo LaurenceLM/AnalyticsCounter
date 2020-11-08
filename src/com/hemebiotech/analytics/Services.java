@@ -1,7 +1,8 @@
 package com.hemebiotech.analytics;
 
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Classe fournissant des services
@@ -15,9 +16,9 @@ public class Services {
      * @return Map des occurences d'items (clé) avec compteurs (valeur)
      */
 
-    public HashMap<String,Integer> setCounterInMap(List<String> list) {
+    public static Map<String,Integer> setCounterInMap(List<String> list) {
 
-        HashMap<String, Integer> itemsCounter = new HashMap<>();
+        TreeMap<String, Integer> itemsCounter = new TreeMap<>();
         Integer compteur;
 
         for (String element: list) {

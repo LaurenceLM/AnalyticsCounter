@@ -1,7 +1,7 @@
 package com.hemebiotech.analytics;
 
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Classe de traitement d'obtention des compteurs d'items
@@ -16,8 +16,8 @@ public class AnalyticsCounter {
 
     public void traiter() throws Exception {
         List<String> listItems = lire();
-        HashMap<String, Integer> itemsCounter = compter(listItems);
-        ecrire(itemsCounter);
+        Map<String, Integer> sortedMap = compter(listItems);
+        ecrire(sortedMap);
     }
 
     /**
@@ -25,8 +25,8 @@ public class AnalyticsCounter {
      * @return liste des items lus
      * @throws Exception si problème lors de la lecture
      */
-    private List<String> lire() throws Exception {
-        ReadItemsDataFromFile itemsReader = new ReadItemsDataFromFile();
+    public List<String> lire() throws Exception {
+        IItemsReader itemsReader = new ReadItemsDataFromFile();
         List<String> listItems = itemsReader.getItems();
         itemsReader.close();
         return listItems;
@@ -38,9 +38,8 @@ public class AnalyticsCounter {
      * @return Map ayant pour clé l'items et valeur le compteur
      */
 
-    private HashMap<String, Integer> compter(List<String>  listItems) {
-        Services services = new Services();
-        return services.setCounterInMap(listItems);
+    public Map<String, Integer> compter(List<String>  listItems) {
+        return Services.setCounterInMap(listItems);
     }
 
     /**
@@ -49,8 +48,8 @@ public class AnalyticsCounter {
      * @throws Exception si problème lors de l'écriture
      */
 
-    private void ecrire(HashMap<String, Integer> itemsCounter) throws Exception {
-        WriteItemsInFile itemsWriter = new WriteItemsInFile();
+    public void ecrire(Map<String, Integer> itemsCounter) throws Exception {
+        IItemsWriter itemsWriter = new WriteItemsInFile();
         itemsWriter.writeItems(itemsCounter);
         itemsWriter.close();
     }

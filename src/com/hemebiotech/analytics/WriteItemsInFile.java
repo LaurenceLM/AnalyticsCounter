@@ -3,9 +3,7 @@ package com.hemebiotech.analytics;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * Classe d'écriture du fichier de sortie
@@ -35,10 +33,9 @@ public class WriteItemsInFile implements IItemsWriter {
      */
 
     @Override
-    public void writeItems(HashMap<String, Integer> itemsCounter) throws IOException {
+    public void writeItems(Map<String, Integer> itemsCounter) throws IOException {
 
-        TreeMap<String, Integer> sortedMap = new TreeMap<>(itemsCounter);
-        for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+        for (Map.Entry<String, Integer> entry : itemsCounter.entrySet()) {
             String k = entry.getKey();
             Integer v = entry.getValue();
             writer.write(k + ": " + v + "\n");
