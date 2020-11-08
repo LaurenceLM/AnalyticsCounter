@@ -3,6 +3,7 @@ package com.hemebiotech.analytics;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Tests {
 
@@ -36,7 +37,7 @@ public class Tests {
         listTest.add("pupils");
         listTest.add("rush");
         Services servicesTest = new Services();
-        HashMap<String, Integer> itemsCounterTest = servicesTest.setCounterInMap(listTest);
+        Map<String, Integer> itemsCounterTest = servicesTest.setCounterInMap(listTest);
         itemsCounterTest.forEach((k, v) -> System.out.println(k + ": " + v));
 
     }

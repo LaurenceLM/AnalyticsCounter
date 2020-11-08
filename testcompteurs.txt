@@ -1,3 +1,0 @@
-pupils: 16
-headache: 12
-rush: 5
